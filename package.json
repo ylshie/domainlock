@@ -1,0 +1,15 @@
+{
+  "name": "domainlock",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    :init": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel index.html",
+    "build": "npm run init && npx parcel build index.html"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
